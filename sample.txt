@@ -1,0 +1,5 @@
+The procedure (using counting rods) for solving simultaneous linear equations now called Gaussian elimination appears in the ancient Chinese mathematical text Chapter Eight: Rectangular Arrays of The Nine Chapters on the Mathematical Art. Its use is illustrated in eighteen problems, with two to five equations.
+
+Systems of linear equations arose in Europe with the introduction in 1637 by René Descartes of coordinates in geometry. In fact, in this new geometry, now called Cartesian geometry, lines and planes are represented by linear equations, and computing their intersections amounts to solving systems of linear equations.
+
+The first systematic methods for solving linear systems used determinants and were first considered by Leibniz in 1693. In 1750, Gabriel Cramer used them for giving explicit solutions of linear systems, now called Cramer's rule. Later, Gauss further described the method of elimination, which was initially listed as an advancement in geodesy.
