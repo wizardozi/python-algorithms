@@ -1,19 +1,9 @@
+import heapq
+from collections import Counter
+
 def top_k_frequent(nums, k):
-    nums_dict = {}
-    for n in nums:
-        nums_dict[n] = nums_dict.get(n, 0) + 1
-        
-    count_list = nums_dict.items()
-    for key, value in nums_dict.items():
-        count.append(value)
-    count.sort(reverse=True)
-    i = 0
-    result = []
-    for i in range(k):        
-        for j in nums:
-            if count[i] == nums_dict[j] and j not in result:
-                result.append(j)                        
-    return result
+    # this is a heap algorithm.
+    return  [result[0] for result in heapq.nlargest(k, Counter(nums).items(), key=lambda item: item[1])]
 
 
 
